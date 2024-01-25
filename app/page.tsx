@@ -7,7 +7,8 @@ import Contact from "./components/contact";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    // <main className="items-center justify-center min-h-screen overflow-y-scroll">
+    <main className="items-center justify-center min-h-screen">
       {/* Hero */}
       <section id="hero" className="snap-center">
         <Hero />
@@ -17,7 +18,7 @@ export default function Home() {
         <About />
       </section>
       {/* Experience */}
-      <section id="experience">
+      <section id="experience" className="snap-center">
         <Experience />
       </section>
       {/* Skills */}

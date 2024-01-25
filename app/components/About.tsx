@@ -8,7 +8,8 @@ const About = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2.5 }}
-      className="relative flex flex-col h-screen items-center justify-center mx-auto px-10 text-center md:text-left md:flex-row"
+      className="relative flex flex-col h-screen items-center justify-center 
+      mx-auto px-10 text-center md:text-left md:flex-row"
     >
       <h3 className="absolute top-24 uppercase">About</h3>
       <motion.img

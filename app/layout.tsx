@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className="bg-[rgb(36,36,36)] text-white max-w-5xl w-full items-center justify-between 
+        className="bg-[rgb(36,36,36)] text-white max-w-5xl w-full items-center justify-between
       font-mono mx-auto"
       >
         <div className="z-10 text-sm lg:flex">

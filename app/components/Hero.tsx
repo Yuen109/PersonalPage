@@ -15,8 +15,8 @@ const Hero = () => {
   });
   return (
     <div
-      className="flex flex-col uppercase items-center justify-center h-screen snap-y snap-mandatory 
-    overflow-scroll"
+      className="flex flex-col uppercase items-center justify-center h-screen snap-y snap-mandatory
+      overflow-scroll"
     >
       <h1>
         <span>{text}</span>
