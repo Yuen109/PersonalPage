@@ -8,7 +8,7 @@ import Contact from "./components/contact";
 export default function Home() {
   return (
     // <main className="items-center justify-center min-h-screen overflow-y-scroll">
-    <main className="items-center justify-center min-h-screen">
+    <main className="items-center justify-center min-h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden">
       {/* Hero */}
       <section id="hero" className="snap-center">
         <Hero />
@@ -22,15 +22,15 @@ export default function Home() {
         <Experience />
       </section>
       {/* Skills */}
-      <section id="skills">
+      <section id="skills" className="snap-center">
         <Skills />
       </section>
       {/* Project */}
-      <section id="project">
+      <section id="project" className="snap-center">
         <Project />
       </section>
       {/* Contact */}
-      <section id="contact">
+      <section id="contact" className="snap-center">
         <Contact />
       </section>
     </main>

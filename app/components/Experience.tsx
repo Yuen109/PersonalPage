@@ -27,8 +27,22 @@ const Experience = () => {
           point={[
             "Responsible for handling customers reservation",
             "Manage to reply customers’ requirements",
+            "Enter custmer information to the company's system",
           ]}
         />
+        <ExperienceCard
+          img={"https://www.skzgroup.com.hk/img/slogan-zh.jpg"}
+          companyName={"CY Human Resources Limited "}
+          startYear={2022}
+          endYear={2022}
+          startDate={6}
+          endDate={12}
+          point={[
+            "Responible for creating frontend of the company website using React JS",
+            "Design the UI in different components",
+          ]}
+        />
+
         <ExperienceCard
           img={
             "https://th.bing.com/th/id/OIP.kd0eOrgJiBdgzCFglP--_gAAAA?rs=1&pid=ImgDetMain"
