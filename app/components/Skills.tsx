@@ -9,10 +9,14 @@ const Skills = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2.5 }}
-      className="relative flex flex-col h-screen items-center justify-center mx-auto px-10 text-center md:text-left md:flex-row"
+      // className="relative flex flex-col h-screen items-center justify-center mx-auto
+      // px-10 text-center md:text-left md:flex-row"
+      className="relative flex flex-col h-screen items-center justify-center mx-auto 
+      px-10 text-center md:text-left md:flex-row"
     >
       <h3 className="absolute top-24 uppercase">Skills</h3>
-      <div className="grid grid-cols-4 gap-4">
+      {/* <div className="grid grid-cols-4 gap-4"> */}
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <Skill
           img={
             "https://th.bing.com/th/id/OIP.pzOThFKihEJ-9_K4uwSBtwHaFO?rs=1&pid=ImgDetMain"
