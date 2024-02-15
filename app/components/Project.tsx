@@ -15,7 +15,7 @@ const Project = () => {
       className="relative flex flex-col h-screen overflow-hidden items-center justify-center 
       max-w-full mx-auto px-10 text-center md:text-left md:flex-row"
     >
-      <h3 className="absolute top-24 uppercase">Projects</h3>
+      <h3 className="absolute top-4 left-0 right-0 uppercase">Projects</h3>
       {/* <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20"> */}
       {/* <div className="w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20"> */}
       <div className="mt-16 md:mt-24 lg:mt-32 w-full flex space-x-5 overflow-x-auto snap-x snap-mandatory">
