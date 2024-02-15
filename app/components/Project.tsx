@@ -18,7 +18,7 @@ const Project = () => {
       <h3 className="absolute top-24 uppercase">Projects</h3>
       {/* <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20"> */}
       {/* <div className="w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20"> */}
-      <div className="w-full flex space-x-5 overflow-x-auto snap-x snap-mandatory">
+      <div className="mt-16 md:mt-24 lg:mt-32 w-full flex space-x-5 overflow-x-auto snap-x snap-mandatory">
         {/* projects */}
         <ProjectCard
           img={["Picture 3.png", "/Picture 1.png", "/Picture 2.png"]}

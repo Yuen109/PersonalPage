@@ -13,7 +13,7 @@ const Experience = () => {
       max-w-full mx-auto px-10 text-center md:text-left md:flex-row"
     >
       <h3 className="absolute top-24 uppercase">Experience</h3>
-      <div className="w-full flex space-x-5 overflow-x-auto snap-x snap-mandatory">
+      <div className="mt-16 md:mt-24 lg:mt-32 w-full flex space-x-5 overflow-x-auto snap-x snap-mandatory">
         {/* Card */}
         <ExperienceCard
           img={

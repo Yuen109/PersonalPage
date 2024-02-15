@@ -11,7 +11,7 @@ const About = () => {
       className="relative flex flex-col h-screen items-center justify-center 
       mx-auto px-10 text-center md:text-left md:flex-row"
     >
-      <h3 className="absolute top-24 uppercase">About</h3>
+      <h3 className="absolute top-4 uppercase">About</h3>
       <motion.img
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
