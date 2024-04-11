@@ -17,7 +17,7 @@ const About = () => {
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1.5 }}
         //   viewport={{ once: true }}
-        src="https://media.licdn.com/dms/image/C5603AQEJfvf7gJ89Eg/profile-displayphoto-shrink_200_200/0/1654998888737?e=1710979200&v=beta&t=Jdo5xHdxeKb6PPLcVfepjeQXvIHrXr5WhhMoj5VK10g"
+        src="/IMG_1379.jpg"
         className="w-40 h-40 rounded-full flex-shrink-0 object-cover md:rounded-lg md:w-64 md:h-64"
       />
       <motion.div
