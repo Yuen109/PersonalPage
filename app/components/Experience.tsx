@@ -17,22 +17,6 @@ const Experience = () => {
         {/* Card */}
         <ExperienceCard
           img={
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/UNIQLO_logo_(Japanese).svg/1029px-UNIQLO_logo_(Japanese).svg.png"
-          }
-          companyName="Uniqlo"
-          startDate={2024}
-          endDate={2024}
-          startYear={6}
-          endYear={11}
-          point={[
-            "Doing customer services (helping customers to find the items, \
-            answer enquire from the customers, giving suggestion to customers, helping with alteration) in shop floors",
-            "Running the items from stock room to shop floor",
-            "Keeping shop floor tidy and clean",
-          ]}
-        />
-        <ExperienceCard
-          img={
             "https://th.bing.com/th/id/OIP.kEdYohW11vwRCHB0mMxvGwHaE8?w=249&h=180&c=7&r=0&o=5&dpr=2&pid=1.7"
           }
           companyName="Nina Hotel Group"
