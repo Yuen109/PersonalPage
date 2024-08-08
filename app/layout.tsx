@@ -18,6 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <link rel="icon" href="/favicon.ico" />
       <body
         className="bg-[rgb(36,36,36)] text-white max-w-5xl w-full items-center justify-between
       font-mono mx-auto"

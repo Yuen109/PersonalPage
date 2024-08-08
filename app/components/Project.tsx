@@ -21,6 +21,21 @@ const Project = () => {
       <div className="mt-16 md:mt-24 lg:mt-32 w-full flex space-x-5 overflow-x-auto snap-x snap-mandatory">
         {/* projects */}
         <ProjectCard
+          img={[
+            "/narratesImg1.png",
+            "/narratesImg2.png",
+            "/narratesImg3.png",
+            "/narratesImg4.png",
+          ]}
+          projectName={"narrates ai"}
+          point={[
+            "Using Next JS",
+            "Introduce the team and concept of narrates ai",
+            "Help narrates ai to promote their business",
+            "Showing what's the market need",
+          ]}
+        />
+        <ProjectCard
           img={["Picture 3.png", "/Picture 1.png", "/Picture 2.png"]}
           projectName={"HealthCare App for Elderly"}
           point={[
