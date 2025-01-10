@@ -87,12 +87,12 @@ const Contact = () => {
           <MapPinIcon className="w-7 h-7" />
           <p>Netherlands, Hong Kong</p>
         </div>
-        <a href="mailto:yuenwork109@gmail.com">
-          <div className="animate-pulse flex items-center  justify-center space-x-5">
-            <EnvelopeIcon className="w-7 h-7" />
+        <div className="animate-pulse flex items-center  justify-center space-x-5">
+          <EnvelopeIcon className="w-7 h-7" />
+          <a href="mailto:yuenwork109@gmail.com">
             <p>yuenwork109@gmail.com</p>
-          </div>
-        </a>
+          </a>
+        </div>
 
         {/* <form onSubmit={handleSubmit(onSubmit)} action="" className="mt-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
